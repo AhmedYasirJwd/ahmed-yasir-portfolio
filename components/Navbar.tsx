@@ -68,7 +68,6 @@ export default function Navbar() {
             <MagneticButton
               href="/AHMED-YASIR-RESUME.pdf"
               target="_blank"
-              download
               className="font-mono text-xs uppercase px-5 py-2 border border-[#0ea5e9]/40 text-[#0ea5e9] hover:bg-[#0ea5e9]/10 rounded transition-all"
             >
               Resume
