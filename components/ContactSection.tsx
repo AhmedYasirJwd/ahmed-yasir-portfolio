@@ -90,7 +90,7 @@ export default function ContactSection() {
           viewport={{ once: true }}
           className="text-center text-text-secondary text-sm mt-8"
         >
-          Or email directly: <a href="mailto:hello@example.com" className="text-[#0ea5e9] hover:underline">hello@example.com</a>
+          Or email directly: <a href="mailto:ahmedyasirjwd@gmail.com" className="text-[#0ea5e9] hover:underline">ahmedyasirjwd@gmail.com</a>
         </motion.p>
       </div>
     </section>

@@ -36,9 +36,9 @@ export default function Footer() {
             <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest">Social</h4>
             <div className="flex gap-4">
               {[
-                { icon: Github, href: '#', label: 'GitHub' },
-                { icon: Linkedin, href: '#', label: 'LinkedIn' },
-                { icon: Mail, href: 'mailto:hello@example.com', label: 'Email' },
+                { icon: Github, href: 'https://github.com/AhmedYasirJwd', label: 'GitHub' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/in/ahmed-yasir-jwd', label: 'LinkedIn' },
+                { icon: Mail, href: 'mailto:ahmedyasirjwd@gmail.com', label: 'Email' },
               ].map(({ icon: Icon, href, label }) => (
                 <MagneticButton
                   key={label}
@@ -57,7 +57,7 @@ export default function Footer() {
           <div>
             <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest">Get In Touch</h4>
             <MagneticButton
-              href="mailto:hello@example.com"
+              href="mailto:ahmedyasirjwd@gmail.com"
               className="px-4 py-2 bg-[#0ea5e9]/10 border border-[#0ea5e9]/40 rounded text-sm text-[#0ea5e9] hover:bg-[#0ea5e9] hover:text-[#050505] transition-all inline-block"
             >
               Email Me
