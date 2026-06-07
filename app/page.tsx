@@ -8,6 +8,7 @@ import AchievementsSection from '@/components/AchievementsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import GridBackground from '@/components/GridBackground';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
