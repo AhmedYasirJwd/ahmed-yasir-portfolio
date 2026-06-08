@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image'
 import { motion } from 'framer-motion';
 
 export default function AboutSection() {
@@ -57,11 +58,19 @@ export default function AboutSection() {
                 transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
                 className="absolute inset-0 border-2 border-transparent border-t-[#0ea5e9] border-r-[#06b6d4]"
               />
-              <div className="relative z-10 text-center">
+              {/* <div className="relative z-10 text-center">
                 <p className="font-mono text-4xl font-bold gradient-text-blue">AY</p>
                 <p className="text-text-secondary text-sm mt-2 font-mono">Full-Stack Dev</p>
-              </div>
+              </div> */}
+               <Image
+      src="/Ahmed_image.png"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+      className="relative z-10 text-center"
+    />
             </div>
+             
           </motion.div>
         </motion.div>
       </div>

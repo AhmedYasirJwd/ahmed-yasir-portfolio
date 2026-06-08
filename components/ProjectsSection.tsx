@@ -36,6 +36,14 @@ const projects = [
     metric: 'Cross-team production tool',
     index: '04',
   },
+  {
+    title: 'Coah Creative App for Coach.sa',
+    description: 'Building the web-application for the Coach Creative from scratch for the Coach.sa, Handled multiple users at the same time, with most efficent resource consuption',
+    tech: ['Javascript', 'Node.js', 'REST API', 'Next.js'],
+    category: 'Web-App',
+    metric: 'realtime inventory managment with Shopify',
+    index: '05',
+  }
 ];
 
 export default function ProjectsSection() {
@@ -116,9 +124,7 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="mt-12 text-center"
         >
-          <p className="text-text-secondary font-mono text-sm">
-            More projects coming soon — adding case studies with screenshots and metrics.
-          </p>
+          
         </motion.div>
       </div>
     </section>
